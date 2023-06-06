@@ -1,0 +1,60 @@
+
+/* Header adjustments*/
+/****************************************************************************/
+
+/*
+Header stay on top while scrolling to improve navigability
+*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    padding: 10px;
+}
+
+
+/*
+Some extra space when u navigate.
+So the header dont overlap the section you are navigating to.
+*/
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 8.5rem;
+}
+
+#linksToSections {
+    float: right;
+    padding-right: 30px;
+}
+
+
+h1{
+    color: white;
+}
+/****************************************************************************/
+
+.progLangLogo {
+    width: 300px;
+    height: 300px;
+}
+
+#programingLanguages {
+    justify-content: space-between;
+}
+
+
+.circularPhotoOfMe {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+#photo-Text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+  
