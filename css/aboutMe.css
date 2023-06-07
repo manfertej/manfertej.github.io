@@ -1,0 +1,28 @@
+
+
+
+#aboutMe {
+    padding: 50px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    
+    align-items: center;
+}
+
+
+
+.circularPhotoOfMe {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+#aboutMeText {
+    display: table-column;
+    align-items: center;
+}
