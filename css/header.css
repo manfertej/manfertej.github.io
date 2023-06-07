@@ -1,0 +1,50 @@
+
+/*
+Header stay on top while scrolling to improve navigability
+*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    padding: 10px;
+}
+
+
+/*
+Some extra space when u navigate.
+So the header dont overlap the section you are navigating to.
+*/
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10rem;
+}
+
+
+
+
+
+
+#linksToSections {
+    float: right;
+    padding-right: 30px;
+}
+
+
+h1{
+    color: white;
+    padding-left: 15px;
+}
+
+
+
+header a{
+
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}

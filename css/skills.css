@@ -1,0 +1,20 @@
+
+/*
+    Style of the 
+*/
+
+#skills {
+
+    padding: 30px;
+    gap: 5%;
+}
+
+.progLangLogo {
+    width: 200px;
+    height: 200px;
+    margin: 30px 30px 30px 30px;
+}
+
+#programingLanguagesImages {
+    text-align: center;
+}

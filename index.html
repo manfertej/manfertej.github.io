@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <title>Portfolio page</title>
 
-    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/aboutMe.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/books.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+    
 </head>
 
 
@@ -17,7 +23,6 @@
         - Links to sections
     -->
     <header id="header" class="sticky">
-        <div >
 
             <h1 class="webTitle"> Manuel Alfonso Fernández </h1>
             <nav id="linksToSections">
@@ -26,8 +31,6 @@
                 <a href="#books"> Books </a>
                 <a href="#contactInfo"> Contact </a>
             </nav>
-
-        </div>
 
     </header>
     
@@ -42,30 +45,30 @@
 
 
     <!-- ABOUT ME section ******************************************************************-->
-    <div id="photo-Text">
+    <section id="aboutMe">
        
         <img id="presentationPhoto" class="circularPhotoOfMe" src="images/me.jpg" alt="A terrible photo of me">
         
         <div id="aboutMeText">
 
             <h2> About me </h2>
-            <p>
+            <p id="aboutMeDescription">
                 I am a (Pending) Software Engineer and a former math teacher.<br>
                 I am interested in design patterns, clean code and applied mathematics. <br>
-                Away from my computer I like to play basketball, read and play some video games with friends.<br>
+                For fun I like to play basketball, read and play some video games with friends.<br>
             </p>
         </div>
             
-    </div>
+    </section>
     <hr>
 
 
     
     <!-- Programing languages **************************************************************-->
-    <div id="skills">
+    <section id="skills">
         <div id="programingLanguages">
             <h2> Programming Languages </h2>
-            <div id="programingLanguagesImages">
+            <div id="programingLanguagesImages" class="centeredLogos">
                 <img class="progLangLogo" src="images/javaLogo.png" alt="Java">
                 <img class="progLangLogo" src="images/pythonLogo.png" alt="Python">
                 <img class="progLangLogo" src="images/c++Logo.png" alt="C++">
@@ -75,47 +78,93 @@
 
 
         <div id="otherSkills">
-            <h2>Other Skills</h2>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br>
-            It has survived not only five centuries, but also the leap into electronic typesetting, <br>
-            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset<br>
-            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like <br>
-            Aldus PageMaker including versions of Lorem Ipsum.
+            <h2>Other skills and tools</h2>
+            <ul>
+                <li> <span class="cardSection">Documentation:</span> Latex and Notion</li>
+                <li> <span class="cardSection">Version control:</span> Git and, although I do not usually publish my projects, Github</li>
+                <li> <span class="cardSection">Databases:</span> SQL (Oracle) and NOSQL (MongoDB)</li>
+                
+            </ul>
         </div>
 
-    </div>
+    </section>
     <hr>
 
 
     <!-- Books *****************************************************************************-->
-    <div id="books">
+    <section id="books">
         <h2> Books </h2>
         <p>
-            I try to read, at least, two books at a time. One fiction book and one technical book.
-
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br>
-            It has survived not only five centuries, but also the leap into electronic typesetting, <br>
-            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset<br>
-            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like <br>
-            Aldus PageMaker including versions of Lorem Ipsum.
+            I try to read, at least, two books at a time. A technical book and a book for fun.
         </p>
 
 
 
-    </div>
+        <div id="technicalBook" class="bookCard">
+            <img id="technicalBookImg" src="images/HFOOD.png" alt="Head First Object-Oriented Analysis & Design">
+
+            <div class="bookText">
+                <p>
+                    <span class="cardSection">Name:</span> Head First - Object-Oriented Analysis & Design
+                    <br>
+                    <span class="cardSection"> Author:</span> Brett D.Ma
+                    <br>
+                    <span class="cardSection"> Why:</span> I loved Head First series since I found the "Design Patterns" book. <br>
+                    It is not a traditional technical book. Its main goal is not to be technically correct, but to be goofy and easy to follow.
+                    <br>
+                    
+                </p>
+
+            </div>
+        </div>
+
+
+
+        <div id="forFunBook" class="bookCard">
+            <img id="forFunBookImg" src="images/TP.png" alt="Head First Object-Oriented Analysis & Design">
+
+            <div class="bookText">
+                <p>
+                    <span class="cardSection">Name:</span> El segador
+                    <br>
+                    <span class="cardSection"> Author:</span> Terry Pratchett
+                    <br>
+                    <span class="cardSection"> Why:</span> Because I'm a nerd of this guy and I'm not brave enough to read him in english.
+                    
+                    <br>
+                    
+                </p>
+
+            </div>
+        </div>
+
+
+    </section>
     <hr>
 
 
     <!-- Footer with contact info *****************************************************************-->
     <footer id="contactInfo">
-        <a href=""></a>
+        <h2>Contact Info</h2>
+
+        <nav id="linksToSocials">
+            <a href="https://www.linkedin.com/in/alfonso-fern%C3%A1ndez-3609a026a/"> 
+                <img class="contactIcon" src="images/linkedinIcon.png" alt="Linkedin icon"> 
+            </a>
+
+            <a href="https://github.com/manfertej"> 
+                <img class="contactIcon" src="images/githubIcon.png" alt="Github icon"> 
+            </a>
+
+            <a href="https://instagram.com/manfertej"> 
+                <img class="contactIcon" src="images/instagramIcon.png" alt="Instagram icon"> 
+            </a>
+        </nav>
+
+
     </footer>
+
+
 </body>
-
-
 
 </html>

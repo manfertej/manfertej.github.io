@@ -1,0 +1,46 @@
+
+#books {
+
+    padding: 30px;
+    gap: 5%;
+    
+}
+
+
+
+.bookCard {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    padding: 25px;
+}
+
+
+
+.bookText p {
+    
+    line-height: 200%;
+}
+
+
+
+
+#technicalBookImg {
+    width: 12.5%;
+    height: 12.5%;
+}
+
+
+
+#forFunBookImg {
+    width: 10%;
+    height: 10%;
+}
+
+
+.cardSection {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
