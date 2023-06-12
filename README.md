@@ -1,4 +1,8 @@
 # Personal web
 
-> Due to final exams and assignments this page is unfinished.
-> For a small mockup see https://rightful-crowley-23c.notion.site/888fa1616e524e4f9f886bde1197156a
+This is my (Ugly) personal webpage.
+No JavaScript or complex CSS yet.
+
+> I can’t do UI to save my life. I mean if I was stranded on an island and the only way to get off that island was to make a pretty UI, I’d die there.
+> - Linus Torvalds
+
