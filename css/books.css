@@ -21,6 +21,7 @@
 .bookText p {
     
     line-height: 200%;
+    max-width: 650px;
 }
 
 

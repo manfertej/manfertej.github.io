@@ -1,8 +1,4 @@
 
-/*
-    Style of the 
-*/
-
 #skills {
 
     padding: 30px;
@@ -17,4 +13,10 @@
 
 #programingLanguagesImages {
     text-align: center;
+}
+
+
+
+#skills li{
+    margin-bottom: 10px;
 }

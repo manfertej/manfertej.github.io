@@ -9,6 +9,15 @@
     gap: 5%;
     
     align-items: center;
+
+    
+
+    /*
+    This is a funny one. 
+    Without JS i can't make the header flote without overlap About Me section.
+    So, caveman brain idea.
+    */
+    margin-top: 130px;
 }
 
 

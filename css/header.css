@@ -12,6 +12,15 @@ Header stay on top while scrolling to improve navigability
 
 
 /*
+For some reason, without this, header won't stick to the left corner, so...
+*/
+header {
+
+    left: 0;
+}
+
+
+/*
 Some extra space when u navigate.
 So the header dont overlap the section you are navigating to.
 */
@@ -19,8 +28,6 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 10rem;
 }
-
-
 
 
 
