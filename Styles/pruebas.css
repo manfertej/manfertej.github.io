@@ -1,0 +1,13 @@
+body {
+    font-family: "Roboto",sans-serif;
+    background-color: #1c1c1d;
+    max-width: 930px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #9c0c0c;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 300;
+}
