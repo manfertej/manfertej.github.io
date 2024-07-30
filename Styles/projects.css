@@ -1,0 +1,49 @@
+.bottom-border {
+    border-bottom: 1px solid rgb(126, 126, 126);
+    margin-top: 10%;
+}
+
+.projects-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.project-card {
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+    border: 1px solid;
+    border-color: rgb(126, 126, 126);
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 1.8em;
+}
+
+img {
+    border-radius: 50px;
+}
+
+.project-logo {
+    height: 200px;
+}
+
+.bold {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h3 a {
+
+    color: #e8e8e8;
+}
+
+.icons-container {
+    display: flex;
+    margin: 10px;
+    gap: 15px;
+}
