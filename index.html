@@ -1,108 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manuel Fernández</title>
-    <link rel="stylesheet" type="text/css" href="Styles/style.css">
-    <link rel="stylesheet" type="text/css" href="Styles/homepage.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+        <link rel="stylesheet" href="./Styles/styles.css">
 </head>
 
-<body>
-    <header>
-        <nav class="topnav">
-            <a href="index.html">Home</a>
-            <a href="inProgress.html">Docs</a>
-            <a href="projects.html">Projects</a>
-            <a href="inProgress.html">Courses</a>
-            <a href="inProgress.html">About</a>
-        </nav>
-    </header>
+<body class="bg-body">
 
 
-    <h1 style="margin-bottom: 0px;">Manuel Fernández</h1>
-    <p style="margin-top: 0px;">Backend developer</p>
+
+    <!-- Nav bar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="">Manuel Fernandez</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
 
-    <article class="biography">
-
-        <div>
-            <h2>About me</h2>
-            <p>
-                Started as a mathematics student, but decided to switch to computer science.<br>
-                Before software, i worked in different fields, but mostly as a math teacher. 
-                At that time I developed an interest in knowledge transmission and effective communication. 
-                Skills I try to use when documenting and training.
-            </p>
-            <p>
-                As you can see, Im not a skilled frontend developer. So I use this project as a way to practice while
-                publish some of my projects, opinions and notes. <br>
-                Hopefully will get better at CSS and just suck at UI/UX design.
-            </p>
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="javascript:goToTop();" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Docs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About me</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <img src="images/profile_pic.png" alt="Profile pic" class="profile_pic">
-    </article>
+    </nav>
 
 
-    <h2>Tech skills</h2>
-    <div class="tech-container">
-        <div class="skills-icons">
-            <h3>Programming languages</h3>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40"
-                alt="java logo" title="java"/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40"
-                alt="python logo" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40"
-                alt="cplusplus logo" />
+
+
+
+
+
+
+    <!-- About me section -->
+    <section id="about">
+
+        <div class="container pt-5 ">
+            <div class="row flex-column-reverse flex-lg-row">
+                <div class="col-md-8 d-flex align-self-center justify-content-start ">
+
+                    <div class="card-body">
+
+                        <h1>About me</h1>
+                        <p>
+                            Started as a mathematics student, but decided to switch to computer science.<br>
+                            Before software, i worked in different fields, but mostly as a math teacher.
+                            At that time I developed an interest in knowledge transmission and effective communication.
+                            Skills I try to use when documenting and training.
+                        </p>
+                        <p>
+                            As you can see, Im not a skilled frontend developer. So I use this project as a way to
+                            practice
+                            while
+                            publish some of my projects, opinions and notes. <br>
+                            Hopefully will get better at CSS and just suck at UI/UX design.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col text-center ">
+                    <div>
+                        <img src="./images/profile_pic.png" class="rounded-circle" id="profile_pic">
+                    </div>
+
+                    <h2>Manuel Fernandez</h2>
+                    <h3 class="lead">Software Engineer</h3>
+                    <h4 class="lead">Backend Developer</h4>
+                    <ul class="col list-unstyled d-flex justify-content-center ">
+                        <li class="ms-3">
+                            <a class="text-body-secondary bi-linkedin" href="//linkedin.com/in/manuel-fernández-tejero-3609a026a"></a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="text-body-secondary bi-instagram" href="//instagram.com/manfertej/"></a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="text-body-secondary bi-github" href="//github.com/manfertej"></a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="text-body-secondary bi-envelope" href="mailto:manfertej@gmail.com"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="skills-icons">
-            <h3>Databases</h3>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40"
-                alt="mysql logo" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40"
-                alt="mongodb logo" />
-        </div>
 
-        <div class="skills-icons">
-            <h3>Others</h3>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40"
-                alt="spring logo" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="40"
-                alt="docker logo" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" height="40"
-                alt="Elasticsearch logo" />
-        </div>
-    </div>
+    </section>
 
+    <footer class="d-flex flex-wrap justify-content-center align-items-center py-5 my-2 border">
 
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a class="text-body-secondary bi-linkedin h2" href="//linkedin.com/in/manuel-fernández-tejero-3609a026a"></a>
+            </li>
+            <li class="ms-3">
+                <a class="text-body-secondary bi-instagram h2" href="//instagram.com/manfertej/"></a>
+            </li>
+            <li class="ms-3">
+                <a class="text-body-secondary bi-github h2" href="//github.com/manfertej"></a>
+            </li>
+            <li class="ms-3">
+                <a class="text-body-secondary bi-envelope h2" href="mailto:manfertej@gmail.com"></a>
+            </li>
+        </ul>
+    </footer>
 
-    <h2>Contact info</h2>
-    <div class="contactInfo-container">
-        <a href="https://www.linkedin.com/in/manuel-fernández-tejero-3609a026a" target="_blank">
-            <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge"
-                height="25" alt="hackerrank logo" />
-        </a>
-        <a href="https://github.com/manfertej" target="_blank">
-            <img src="https://img.shields.io/static/v1?message=Github&logo=github&label=&color=555&logoColor=white&labelColor=&style=for-the-badge"
-                height="25" alt="instagram logo" />
-        </a>
-        <a href="https://www.hackerrank.com/profile/manfertej" target="_blank">
-            <img src="https://img.shields.io/static/v1?message=HackerRank&logo=hackerrank&label=&color=2EC866&logoColor=white&labelColor=&style=for-the-badge"
-                height="25" alt="hackerrank logo" />
-        </a>
-        <a href="https://www.instagram.com/manfertej/" target="_blank">
-            <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge"
-                height="25" alt="instagram logo" />
-        </a>
-    </div>
-    
-
-    <button onclick="topFunction()" id="goToTop" title="Go to top"><i class="material-icons">arrow_upward</i></button>
 
     <script src="Javascript/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
